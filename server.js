@@ -12,13 +12,6 @@ const app = express();
 
 // page routes
 const routes = [
-  '/',
-  '/profile',
-  '/quotation',
-  '/quotation/*',
-  '/application',
-  '/registration',
-  '/login',
 ];
 
 if (!isProd) {
